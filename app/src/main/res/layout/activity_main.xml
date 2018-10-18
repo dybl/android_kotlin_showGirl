@@ -4,15 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-     <ImageView
-        android:id="@+id/img_show"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btn_refresh"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitCenter"/>
+        android:layout_alignParentBottom="true"
+        android:text="换一批"/>
 
      <Button
         android:id="@+id/btn_show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="显示妹子"/>
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/btn_refresh"
+        android:text="下一个妹子"/>
+
+     <ImageView
+        android:id="@+id/img_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_show"/>
  </RelativeLayout>

@@ -1,7 +1,6 @@
 package com.junjc9.j9.gg.network;
 
 import android.util.Log;
-import com.coderpig.drysisters.bean.entity.Sister;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.ByteArrayOutputStream;
@@ -10,6 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
+import com.junjc9.j9.gg.bean.entity.Sister;
 
  /**
  * 描述：网络请求处理相关类
