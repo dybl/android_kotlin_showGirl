@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button showBtn;
     private ImageView showImg;
     private ArrayList<String> urls;
-    private int curPos = 0;
+    private int curPos = 0;g
     private PictureLoader loader;
 
     @Override
@@ -25,17 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initData() {
         urls = new ArrayList<>();
-        urls.add("http://ww4.sinaimg.cn/large/610dc034jw1f6ipaai7wgj20dw0kugp4.jpg");
-        urls.add("http://ww3.sinaimg.cn/large/610dc034jw1f6gcxc1t7vj20hs0hsgo1.jpg");
-        urls.add("http://ww4.sinaimg.cn/large/610dc034jw1f6f5ktcyk0j20u011hacg.jpg");
-        urls.add("http://ww1.sinaimg.cn/large/610dc034jw1f6e1f1qmg3j20u00u0djp.jpg");
-        urls.add("http://ww3.sinaimg.cn/large/610dc034jw1f6aipo68yvj20qo0qoaee.jpg");
-        urls.add("http://ww3.sinaimg.cn/large/610dc034jw1f69c9e22xjj20u011hjuu.jpg");
-        urls.add("http://ww3.sinaimg.cn/large/610dc034jw1f69c9e22xjj20u011hjuu.jpg");
-        urls.add("http://ww3.sinaimg.cn/large/c85e4a5cjw1f671i8gt1rj20vy0vydsz.jpg");
-        urls.add("http://ww2.sinaimg.cn/large/610dc034jw1f65f0oqodoj20qo0hntc9.jpg");
-        urls.add("http://ww2.sinaimg.cn/large/c85e4a5cgw1f62hzfvzwwj20hs0qogpo.jpg");
-    }
+        urls.add("https://desk-fd.zol-img.com.cn/t_s1366x768c5/g5/M00/05/0C/ChMkJ1l_JRCIA-oAAAS5EW43hXUAAfSaAEVxL8ABLkp466.jpg");
+        urls.add("https://desk-fd.zol-img.com.cn/t_s1366x768c5/g5/M00/05/0C/ChMkJll_JQCIRL6WAAIE-vEqU8UAAfSaACmbQMAAgUS185.jpg");
+        urls.add("https://desk-fd.zol-img.com.cn/t_s1366x768c5/g5/M00/05/0C/ChMkJ1l_JQiIVrsEAAakZPWnOCwAAfSaAC-yQcABqR8241.jpg");
+        urls.add("https://desk-fd.zol-img.com.cn/t_s1366x768c5/g5/M00/05/0C/ChMkJ1l_JQ-IfkkoABFDwss4troAAfSaAEBYQAAEUPa636.jpg");
+        urls.add("https://desk-fd.zol-img.com.cn/t_s1366x768c5/g5/M00/0B/0B/ChMkJliUTuiILtObAIMgoVSlSrwAAZrPgER3o8AgyC5106.jpg");
 
     private void initUI() {
         showBtn = (Button) findViewById(R.id.btn_show);
